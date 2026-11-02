@@ -44,6 +44,27 @@ class LoginPage extends StatelessWidget {
           ),
         ),
       ),
+                        const Text(
+                    'Bingham Campus Cart',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Everything you need here on campus',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  const SizedBox(height: 48),
+                  // paste parts here
     );
   }
 }
