@@ -79,3 +79,22 @@ class LoginPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 32),
                   // paste parts here
+                  SizedBox(
+                    height: 54,
+                    child: FilledButton(
+                      onPressed: () {},
+                      style: FilledButton.styleFrom(
+                        backgroundColor: schoolYellow,
+                        foregroundColor: Colors.black87,
+                        shape: const StadiumBorder(),
+                      ),
+                      child: const Text(
+                        'Log in',
+                        style: TextStyle(
+                            fontSize: 17, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                  // paste parts here
+
