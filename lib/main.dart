@@ -97,4 +97,20 @@ class LoginPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   // paste parts here
+                  SizedBox(
+                    height: 54,
+                    child: OutlinedButton(
+                      onPressed: () {},
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.white,
+                        side: const BorderSide(color: Colors.white, width: 2),
+                        shape: const StadiumBorder(),
+                      ),
+                      child: const Text(
+                        'Create account',
+                        style: TextStyle(
+                            fontSize: 17, fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
 
